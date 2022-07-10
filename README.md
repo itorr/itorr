@@ -37,6 +37,8 @@
 
 [不会百度么？](https://buhuibaidu.me/)
 
+还活着的最近会整理到 [神奇海螺实验室](https://lab.magiconch.com/)
+
 
 ### 一些巡礼图
 <div>
