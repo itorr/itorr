@@ -1,7 +1,7 @@
 
 ### (*´▽｀)ノノ✨✨
 
-![黄前久美子 ✕ 绫波丽 角色变换！](https://wx3.sinaimg.cn/large/4764ae2aly1gnl92syw60g20cg0b2whm.gif)
+<img alt="黄前久美子 ✕ 绫波丽 角色变换！" src="https://wx3.sinaimg.cn/large/4764ae2aly1gnl92syw60g20cg0b2whm.gif" width="224px" height="199px">
 
 你好，我是卜卜口~
 
