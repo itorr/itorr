@@ -16,7 +16,7 @@
 
 喜欢「福音战士」 头像是自己模仿贞本义行原画拍的 [照片](https://weibo.com/1197780522/HnmkwpIPC) 
 
-喜欢巡礼「吹响吧！上低音号」 [巡礼文章](https://www.bilibili.com/read/cv4791285) 被推荐过哔哩哔哩首页最大的轮播位四天，凑齐九张图会发一条[微博](https://weibo.com/1197780522/Ipgkka7S3)
+喜欢巡礼「吹响吧！上低音号」 [巡礼文章](https://www.bilibili.com/read/cv4791285) 被推荐过哔哩哔哩首页最大的轮播位四天，凑齐九张图会发一条 [微博](https://weibo.com/1197780522/Ipgkka7S3)
 
 ### 一些个人项目
 
@@ -37,7 +37,7 @@
 
 [不会百度么？](https://buhuibaidu.me/)
 
-还活着的最近会整理到 [神奇海螺实验室](https://lab.magiconch.com/)
+还活着的项目最近会整理到 [神奇海螺实验室](https://lab.magiconch.com/)
 
 
 ### 一些巡礼图
