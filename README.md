@@ -25,7 +25,9 @@
 [蒸 気 機](https://magiconch.com/vaporwave/)、
 [恶臭数字论证器](https://lab.magiconch.com/homo/)、
 
+[One Last Image 卢浮宫生成器](https://lab.magiconch.com/one-last-image/)、
 [福音战士标题生成器](https://lab.magiconch.com/eva-title/)、
+
 [EVA 扫雷](https://v.magiconch.com/mine-sweeper)、
 [MAGI System](https://lab.magiconch.com/magi/)、
 [选择所有包含绫波丽的图片](https://lab.magiconch.com/captcha/rei)、
@@ -40,7 +42,11 @@
 还活着的项目最近会整理到 [神奇海螺实验室](https://lab.magiconch.com/)
 
 
-### 一些巡礼图
+
+<details>
+<summary>
+<h3>一些巡礼图</h3>
+</summary>
 <div>
 <img src="https://wx4.sinaimg.cn/mw1024/4764ae2agy1gcungn6dsqj21hd0u0kbl.jpg" width="49%" alt="轻音小学校">
 <img src="https://wx1.sinaimg.cn/crop.0.540.3742.2104/4764ae2agy1g8nkxs4c1sj22vy25yb2a.jpg" width="49%" alt="老婆等的很生气">
@@ -53,8 +59,13 @@
 <img src="https://wx4.sinaimg.cn/crop.0.1080.1920.1080/4764ae2agy1fjepdruoe6j21hc1o0txg.jpg" alt="宇治桥东" width="49%">
 <img src="https://wx4.sinaimg.cn/crop.0.612.1080.613/4764ae2agy1g35jdxulm0j20u00xr7wn.jpg" alt="宇治桥东" width="49%">
 </div>
+</details>
 
-### 一些粘土娃
+
+<details>
+<summary>
+<h3>一些粘土娃</h3>
+</summary>
 <div>
   <img src="https://wx4.sinaimg.cn/mw1024/001j3LqGly1gv2ibc1nshj62c02c07wh02.jpg" alt="老婆等的很生气" width="24%">
   <img src="https://wx4.sinaimg.cn/mw1024/4764ae2aly1h3y9qkooqbj22c02c07wi.jpg" alt="来点香香小可爱" width="24%">
@@ -69,8 +80,14 @@
   <img src="https://wx2.sinaimg.cn/mw1024/4764ae2agy1g30ubften8j20u00u07wj.jpg" alt="镰仓" width="24%">
   <img src="https://user-images.githubusercontent.com/1933673/178134291-c3fadcf4-0923-4540-a586-9d5b2261160a.png" width="24%">
 </div>
+</details>
 
-### 一些...竖构图
+
+
+<details>
+<summary>
+<h3>一些...竖构图</h3>
+</summary>
 <div>
   <img src="https://user-images.githubusercontent.com/1933673/178134531-0d94f455-95d7-49bc-bfd1-4cde24a0fd7d.png" width=19%>
   <img src="https://wx2.sinaimg.cn/large/4764ae2agy1frsq6m2nukj21kw2dc4qp.jpg" width=19%>
@@ -83,6 +100,8 @@
   <img src="https://wx1.sinaimg.cn/mw1024/4764ae2aly1gx65k3c6i7j20u0190dmx.jpg" width=19%>
   <img src="https://t.magiconch.com/attach/228/20190224-OAQ_0648.jpg!h1200" width=19%>
 </div>
+</details>
+
 
 <!-- ![Phat！「绫波丽 贞本义行原画 ver.」](https://wx2.sinaimg.cn/mw1024/4764ae2agy1g1l7c89m7hj20u01ddu0y.jpg) -->
 
