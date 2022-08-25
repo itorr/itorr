@@ -25,6 +25,8 @@
 [蒸 気 機](https://magiconch.com/vaporwave/)、
 [恶臭数字论证器](https://lab.magiconch.com/homo/)、
 
+[Sakana! 石蒜模拟器](https://lab.magiconch.com/sakana/)、
+
 [One Last Image 卢浮宫生成器](https://lab.magiconch.com/one-last-image/)、
 [福音战士标题生成器](https://lab.magiconch.com/eva-title/)、
 
