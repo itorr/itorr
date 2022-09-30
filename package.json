@@ -5,7 +5,10 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node arrange.js"
+    "arrange": "node arrange.js",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,7 +24,22 @@
     "url": "https://github.com/itorr/itorr/issues"
   },
   "homepage": "https://github.com/itorr/itorr#readme",
+  "devDependencies": {
+    "vite": "^2.9.7"
+  },
   "dependencies": {
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "query-string": "^7.1.1",
+    "vite-plugin-vue2": "^2.0.0",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vue-template-compiler": "^2.6.14",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.4.0",
+    "express": "^4.18.1",
+    "markdown": "^0.5.0",
+    "markdown-it": "^13.0.1",
     "md5": "^2.3.0",
     "xml2js": "^0.4.23"
   }

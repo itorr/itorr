@@ -1,0 +1,4 @@
+let links = [...document.links].map(a=>a.href);
+links = [...links,...[...document.links].map(a=>a.href)];
+links= links.filter(i=>/^https:\/\/mouto\.org/.test(i))
+copy(links.join('\n'))
