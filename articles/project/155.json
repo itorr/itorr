@@ -23,40 +23,40 @@
       "id": "1299",
       "aid": "155",
       "src": "attach/155/1.png",
-      "size": "82957",
-      "width": "990",
-      "height": "780",
+      "size": 82957,
+      "width": 990,
+      "height": 780,
       "color": "f0f0f1",
-      "status": "1",
-      "type": "0",
-      "created": "1514973989",
-      "modified": "1514973989"
+      "status": 1,
+      "type": 0,
+      "created": 1514973989,
+      "modified": 1514973989
     },
     {
       "id": "1300",
       "aid": "155",
       "src": "attach/155/2.png",
-      "size": "71260",
-      "width": "970",
-      "height": "890",
+      "size": 71260,
+      "width": 970,
+      "height": 890,
       "color": "eeeeef",
-      "status": "1",
-      "type": "0",
-      "created": "1514973990",
-      "modified": "1514973990"
+      "status": 1,
+      "type": 0,
+      "created": 1514973990,
+      "modified": 1514973990
     },
     {
       "id": "1301",
       "aid": "155",
       "src": "attach/155/3.png",
-      "size": "67772",
-      "width": "611",
-      "height": "784",
+      "size": 67772,
+      "width": 611,
+      "height": 784,
       "color": "e7e8eb",
-      "status": "1",
-      "type": "0",
-      "created": "1514973991",
-      "modified": "1514973991"
+      "status": 1,
+      "type": 0,
+      "created": 1514973991,
+      "modified": 1514973991
     }
   ]
 }

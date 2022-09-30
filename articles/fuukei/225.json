@@ -12,40 +12,40 @@
       "id": "3170",
       "aid": "225",
       "src": "attach/225/_R0010317.JPG",
-      "size": "2125983",
-      "width": "5376",
-      "height": "2688",
+      "size": 2125983,
+      "width": 5376,
+      "height": 2688,
       "color": "4c4a4b",
-      "status": "1",
-      "type": "3",
-      "created": "1553610253",
-      "modified": "1553610253"
+      "status": 1,
+      "type": 3,
+      "created": 1553610253,
+      "modified": 1553610253
     },
     {
       "id": "3171",
       "aid": "225",
       "src": "attach/225/R0010328.JPG",
-      "size": "2559714",
-      "width": "5376",
-      "height": "2688",
+      "size": 2559714,
+      "width": 5376,
+      "height": 2688,
       "color": "2d3137",
-      "status": "1",
-      "type": "3",
-      "created": "1553610255",
-      "modified": "1553610255"
+      "status": 1,
+      "type": 3,
+      "created": 1553610255,
+      "modified": 1553610255
     },
     {
       "id": "3172",
       "aid": "225",
       "src": "attach/225/R0010333.JPG",
-      "size": "2238022",
-      "width": "5376",
-      "height": "2688",
+      "size": 2238022,
+      "width": 5376,
+      "height": 2688,
       "color": "8a9abc",
-      "status": "1",
-      "type": "3",
-      "created": "1553610257",
-      "modified": "1553610257"
+      "status": 1,
+      "type": 3,
+      "created": 1553610257,
+      "modified": 1553610257
     }
   ]
 }

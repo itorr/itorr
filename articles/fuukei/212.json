@@ -15,27 +15,27 @@
       "id": "2849",
       "aid": "212",
       "src": "attach/212/01.jpg",
-      "size": "893762",
-      "width": "1920",
-      "height": "2160",
+      "size": 893762,
+      "width": 1920,
+      "height": 2160,
       "color": "4c505b",
-      "status": "1",
-      "type": "0",
-      "created": "1536647212",
-      "modified": "1536647212"
+      "status": 1,
+      "type": 0,
+      "created": 1536647212,
+      "modified": 1536647212
     },
     {
       "id": "2850",
       "aid": "212",
       "src": "attach/212/02.jpg",
-      "size": "1103517",
-      "width": "1920",
-      "height": "2160",
+      "size": 1103517,
+      "width": 1920,
+      "height": 2160,
       "color": "475953",
-      "status": "1",
-      "type": "0",
-      "created": "1536647213",
-      "modified": "1536647213"
+      "status": 1,
+      "type": 0,
+      "created": 1536647213,
+      "modified": 1536647213
     }
   ]
 }

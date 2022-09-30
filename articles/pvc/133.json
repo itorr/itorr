@@ -16,14 +16,14 @@
       "id": "954",
       "aid": "133",
       "src": "attach/pvc133/psb.jpeg",
-      "size": "1465484",
-      "width": "4240",
-      "height": "2400",
+      "size": 1465484,
+      "width": 4240,
+      "height": 2400,
       "color": "ac7b4d",
-      "status": "1",
-      "type": "0",
-      "created": "1514255594",
-      "modified": "1514255594"
+      "status": 1,
+      "type": 0,
+      "created": 1514255594,
+      "modified": 1514255594
     }
   ]
 }

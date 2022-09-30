@@ -17,6 +17,20 @@ const articles = [];
 const parseArticleByJSON = filePath=>{
     try{
         const data = JSON.parse(readFileSync(filePath,'utf-8'));
+
+        // if(data.images){
+        //     data.images = data.images.map(image=>{
+        //         image.size = +image.size;
+        //         image.width = +image.width;
+        //         image.height = +image.height;
+        //         image.status = +image.status;
+        //         image.type = +image.type;
+        //         image.created = +image.created;
+        //         image.modified = +image.modified;
+        //         return image;
+        //     });
+        // }
+        // writeFileSync(filePath,JSON.stringify(data,0,2),'utf-8')
         return data;
     }catch(e){
         return null;

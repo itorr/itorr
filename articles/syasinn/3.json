@@ -16,40 +16,40 @@
       "id": "3320",
       "aid": "3",
       "src": "attach/3/1.jpg",
-      "size": "5101424",
-      "width": "1900",
-      "height": "11662",
+      "size": 5101424,
+      "width": 1900,
+      "height": 11662,
       "color": "d2d4dc",
-      "status": "1",
-      "type": "0",
-      "created": "1574534327",
-      "modified": "1574534327"
+      "status": 1,
+      "type": 0,
+      "created": 1574534327,
+      "modified": 1574534327
     },
     {
       "id": "3321",
       "aid": "3",
       "src": "attach/3/2.jpg",
-      "size": "5834272",
-      "width": "1600",
-      "height": "17034",
+      "size": 5834272,
+      "width": 1600,
+      "height": 17034,
       "color": "c7c7cb",
-      "status": "1",
-      "type": "0",
-      "created": "1574534330",
-      "modified": "1574534330"
+      "status": 1,
+      "type": 0,
+      "created": 1574534330,
+      "modified": 1574534330
     },
     {
       "id": "3322",
       "aid": "3",
       "src": "attach/3/3.jpg",
-      "size": "1115838",
-      "width": "1600",
-      "height": "2400",
+      "size": 1115838,
+      "width": 1600,
+      "height": 2400,
       "color": "c1cad6",
-      "status": "1",
-      "type": "0",
-      "created": "1574534331",
-      "modified": "1574534331"
+      "status": 1,
+      "type": 0,
+      "created": 1574534331,
+      "modified": 1574534331
     }
   ]
 }

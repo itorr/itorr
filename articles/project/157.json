@@ -23,14 +23,14 @@
       "id": "1302",
       "aid": "157",
       "src": "attach/157/buhuibaidu.me.png",
-      "size": "55305",
-      "width": "1038",
-      "height": "690",
+      "size": 55305,
+      "width": 1038,
+      "height": 690,
       "color": "187cfc",
-      "status": "1",
-      "type": "0",
-      "created": "1514974511",
-      "modified": "1514974511"
+      "status": 1,
+      "type": 0,
+      "created": 1514974511,
+      "modified": 1514974511
     }
   ]
 }

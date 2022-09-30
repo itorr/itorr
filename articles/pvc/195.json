@@ -15,29 +15,29 @@
       "id": "2632",
       "aid": "195",
       "src": "attach/195/IMG_8106.JPG",
-      "size": "716646",
-      "width": "2202",
-      "height": "3304",
+      "size": 716646,
+      "width": 2202,
+      "height": 3304,
       "color": "3a6289",
       "text": "融合背景画的虚拟光线拍摄",
-      "status": "1",
-      "type": "0",
-      "created": "1528707914",
-      "modified": "1528707914"
+      "status": 1,
+      "type": 0,
+      "created": 1528707914,
+      "modified": 1528707914
     },
     {
       "id": "2633",
       "aid": "195",
       "src": "attach/195/IMG_9166.JPG",
-      "size": "1097911",
-      "width": "2400",
-      "height": "1800",
+      "size": 1097911,
+      "width": 2400,
+      "height": 1800,
       "color": "242527",
       "text": "按照背景的情况布光",
-      "status": "1",
-      "type": "0",
-      "created": "1528711612",
-      "modified": "1528711612"
+      "status": 1,
+      "type": 0,
+      "created": 1528711612,
+      "modified": 1528711612
     }
   ]
 }
