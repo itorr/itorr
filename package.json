@@ -4,7 +4,8 @@
   "description": "新的博客",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node arrange.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/itorr/itorr#readme",
   "dependencies": {
+    "md5": "^2.3.0",
     "xml2js": "^0.4.23"
   }
 }
