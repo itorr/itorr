@@ -1,0 +1,12 @@
+{
+  "id": "216",
+  "title": "body-parser 库如何接收非数组或对象 JSON 数据？",
+  "type": "code",
+  "text": "NPM NodeJS\n\n```\ncurl \n-X PUT \n-H \"Content-Type: application/json\" \n-H \"Cache-Control: no-cache\" \n-d '2' \"http://music.com/api/track/1771615791/score\"\n```\n报错\n```bash\nSyntaxError: Unexpected token 2 in JSON at position 0\n    at JSON.parse (<anonymous>)\n    at createStrictSyntaxError (@/node_modules/body-parser/lib/types/json.js:159:10)\n    at parse (@/node_modules/body-parser/lib/types/json.js:83:15)\n    at @/node_modules/body-parser/lib/read.js:121:18\n    at invokeCallback (@/node_modules/body-parser/node_modules/raw-body/index.js:224:16)\n    at done (@/node_modules/body-parser/node_modules/raw-body/index.js:213:7)\n    at IncomingMessage.onEnd (@/node_modules/body-parser/node_modules/raw-body/index.js:273:7)\n    at IncomingMessage.emit (events.js:182:13)\n    at endReadableNT (_stream_readable.js:1094:12)\n    at process._tickCallback (internal/process/next_tick.js:63:19)\n```\n\n原因是 `body-parser` 这个库在做容错处理的时候简单的判断了下 `^{`、`^[` 就抛了错误出来，实际上 JSON 还很有可能是字符串数字之类的\n\n`https://github.com/expressjs/body-parser/blob/master/lib/types/json.js`\n\n找到 78 行，注释掉 整个判断删掉\n```\n    if (strict) {\n      var first = firstchar(body)\n\n      if (first !== '{' && first !== '[') {\n        debug('strict violation')\n        throw createStrictSyntaxError(body, first)\n      }\n    }\n```",
+  "click": 0,
+  "star": 0,
+  "status": 0,
+  "created": 1542999973,
+  "modified": 1542999996,
+  "images": []
+}

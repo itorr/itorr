@@ -1,0 +1,42 @@
+{
+  "id": "132",
+  "title": "EVA 二号机兽化模式",
+  "type": "pvc",
+  "text": "小尺寸",
+  "summary": "小尺寸",
+  "cover": "/attach/cosplay132/psb-4.jpeg",
+  "color": "53090b",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1407456000,
+  "modified": 1530589830,
+  "images": [
+    {
+      "id": "953",
+      "aid": "132",
+      "src": "attach/cosplay132/psb-4.jpeg",
+      "size": "1105090",
+      "width": "4240",
+      "height": "2400",
+      "color": "53090b",
+      "status": "1",
+      "type": "0",
+      "created": "1514255404",
+      "modified": "1514255404"
+    },
+    {
+      "id": "955",
+      "aid": "132",
+      "src": "attach/pvc132/psb-3.jpeg",
+      "size": "1485843",
+      "width": "4240",
+      "height": "2400",
+      "color": "c08443",
+      "status": "1",
+      "type": "0",
+      "created": "1514255775",
+      "modified": "1514255775"
+    }
+  ]
+}

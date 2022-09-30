@@ -1,0 +1,12 @@
+{
+  "id": "215",
+  "title": "MongoDB 多层数组对象 筛选局部更新",
+  "type": "code",
+  "text": "### 数据格式样例\n```\n{\n\t\"_id\" : ObjectId(\"...\"),\n\t\"id\" : 2102855644,\n\t\"title\" : \"その未来へ\",\n\t\"disks\" : [\n\t\t{\n\t\t\t\"title\" : \"disc 1\",\n\t\t\t\"tracks\" : [\n\t\t\t\t{\n\t\t\t\t\t\"id\" : 1796759555,\n\t\t\t\t\t\"title\" : \"その未来へ\",\n\t\t\t\t\t\"sub\" : \"电视动画「泥鲸之子们在沙地上歌唱」OP / TVアニメ『クジラの子らは砂上に歌う』オープニングテーマ\",\n\t\t\t\t\t\"duration\" : 256,\n\t\t\t\t\t\"fix\" : true\n\t\t\t\t},\n\t\t\t\t...\n\t\t\t]\n\t\t},\n\t\t...\n\t]\n}\n```\n\n目标是更新 `track` 中的 `fix` 为 `false`，同时不影响其他同层级的数据\n \n在更新时临时命名 `track`，然后借助 `arrayFilters` 在更新时进行过滤\n\n### 实现\n```javascript\n\ndb.albums.update(\n\t{ 'disks.tracks.id': 1796759555 },\n\t{\n\t\t$inc:{\n\t\t\t'disks.$[].tracks.$[track].fix':false\n\t\t}\n\t},{\n\tarrayFilters: [\n\t\t\t{\n\t\t\t\t\"track.id\": 1796759555\n\t\t\t} \n\t\t], \n\t\tmulti: false\n\t}\n)\n```\n\n\n###文档\n\nhttps://docs.mongodb.com/manual/reference/operator/update/positional-all/#update-nested-arrays-in-conjunction-with-identifier",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1542468554,
+  "modified": 1542468554,
+  "images": []
+}

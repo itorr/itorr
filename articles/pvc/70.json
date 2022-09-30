@@ -1,0 +1,68 @@
+{
+  "id": "70",
+  "title": "Phat！高槻弥生",
+  "type": "pvc",
+  "text": "「偶像大师」战队款",
+  "summary": "「偶像大师」战队款",
+  "cover": "/attach/pvc70/psb-7.jpeg",
+  "color": "ac6e3d",
+  "click": 0,
+  "star": 1,
+  "status": 1,
+  "created": 1513942183,
+  "modified": 1530590044,
+  "images": [
+    {
+      "id": "46",
+      "aid": "70",
+      "src": "attach/pvc70/psb-9.jpeg",
+      "size": "1164805",
+      "width": "2693",
+      "height": "4038",
+      "color": "d4d4c7",
+      "status": "1",
+      "type": "0",
+      "created": "1513942140",
+      "modified": "1513942140"
+    },
+    {
+      "id": "47",
+      "aid": "70",
+      "src": "attach/pvc70/psb-8.jpeg",
+      "size": "912552",
+      "width": "4240",
+      "height": "2400",
+      "color": "ccb4c1",
+      "status": "1",
+      "type": "0",
+      "created": "1513942140",
+      "modified": "1513942140"
+    },
+    {
+      "id": "48",
+      "aid": "70",
+      "src": "attach/pvc70/psb-7.jpeg",
+      "size": "1152474",
+      "width": "4240",
+      "height": "2400",
+      "color": "353f45",
+      "status": "1",
+      "type": "0",
+      "created": "1513942140",
+      "modified": "1513942140"
+    },
+    {
+      "id": "49",
+      "aid": "70",
+      "src": "attach/pvc70/psb-6.jpeg",
+      "size": "1009258",
+      "width": "4240",
+      "height": "2400",
+      "color": "e0ddd0",
+      "status": "1",
+      "type": "0",
+      "created": "1513942141",
+      "modified": "1513942141"
+    }
+  ]
+}

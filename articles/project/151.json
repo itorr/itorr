@@ -1,0 +1,105 @@
+{
+  "id": "151",
+  "title": "弹幕电台",
+  "type": "project",
+  "text": "极简二次元弹幕（个人）电台\n\nhttp://fm.itorr.sinaapp.com\n\n偷揉电台从12年至今已有3个年头，经历了很多次大的版本更新，可能是最早的弹幕音乐组合项目。\n\n鉴于最近关注v7源码的同学较多，于是将这部分分享出来。\n\n> 欢迎二次开发，\n> 但请保留  `console`  中的 `偷揉电台` 字样以及当前 github 地址。\n\n\n## 如何使用这个源码\n\n上传代码至任意支持目录结构文件路由的服务器，然后访问即可。\n\n\n### v7更新\n\n 1. 增加用户系统；\n 2. 标红心；\n 3. 极速搜索；\n 4. 频道切换； \n 5. …\n\n### v7优化\n 1. 动态歌词功能增强；\n 2. 进度条功能增强；\n 3. 手机浏览器适配增强。",
+  "summary": "最早音频弹幕组合",
+  "cover": "/static/img/projects/danmu.fm-icon.svg",
+  "color": "f3f3f3",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1514974362,
+  "modified": 1514975682,
+  "links": [
+    {
+      "text": "访问电台",
+      "url": "http://itorr.sinaapp.com/fm",
+      "className": "active"
+    },
+    {
+      "text": "GitHub",
+      "url": "http://github.com/itorr/itorrFM"
+    }
+  ],
+  "images": [
+    {
+      "id": "1278",
+      "aid": "151",
+      "src": "attach/151/1.png",
+      "size": "661044",
+      "width": "2048",
+      "height": "1536",
+      "color": "d0cbdf",
+      "status": "1",
+      "type": "0",
+      "created": "1514971732",
+      "modified": "1514971732"
+    },
+    {
+      "id": "1279",
+      "aid": "151",
+      "src": "attach/151/2.png",
+      "size": "1661772",
+      "width": "2048",
+      "height": "1536",
+      "color": "2d2c2c",
+      "status": "1",
+      "type": "0",
+      "created": "1514971736",
+      "modified": "1514971736"
+    },
+    {
+      "id": "1280",
+      "aid": "151",
+      "src": "attach/151/3.png",
+      "size": "734629",
+      "width": "2048",
+      "height": "1536",
+      "color": "253782",
+      "status": "1",
+      "type": "0",
+      "created": "1514971737",
+      "modified": "1514971737"
+    },
+    {
+      "id": "1281",
+      "aid": "151",
+      "src": "attach/151/4.png",
+      "size": "876640",
+      "width": "2048",
+      "height": "1536",
+      "color": "3a4f7e",
+      "status": "1",
+      "type": "0",
+      "created": "1514971740",
+      "modified": "1514971740"
+    },
+    {
+      "id": "1282",
+      "aid": "151",
+      "src": "attach/151/5.png",
+      "size": "528674",
+      "width": "2048",
+      "height": "1536",
+      "color": "8a4394",
+      "status": "1",
+      "type": "0",
+      "created": "1514971741",
+      "modified": "1514971741"
+    },
+    {
+      "id": "1283",
+      "aid": "151",
+      "src": "attach/151/6.png",
+      "size": "719640",
+      "width": "2048",
+      "height": "1536",
+      "color": "66636f",
+      "status": "1",
+      "type": "0",
+      "created": "1514971744",
+      "modified": "1514971744"
+    }
+  ]
+}

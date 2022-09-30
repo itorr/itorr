@@ -1,0 +1,12 @@
+{
+  "id": "223",
+  "title": "VueQuillEditor 如何添加自定义字体？",
+  "type": "code",
+  "text": "Quill 编辑自定义字体列表还比较麻烦的，总结了下最终的解决方法\n\n### 首先配置的时候编辑下允许使用的字体们\n\n```JavaScript\nimport Vue from 'vue';\nimport  VueQuillEditor from 'vue-quill-editor';\nVue.use(VueQuillEditor);\n\nlet fonts = ['宋体','黑体','艺术字'];\n\nlet Font = VueQuillEditor.Quill.import('formats/font');\nFont.whitelist = API.font;\nVueQuillEditor.Quill.register(Font, true);\n```\n\n### 配置编辑器的时候把之前设置的字体加上\n\n```JavaScript\n{\n\tmodules:{\n\t\ttoolbar:{\n\t\t\tcontainer:[\n\t\t\t\t...\n\t\t\t\t[{\n\t\t\t\t\t'font': ['宋体','黑体','艺术字']\n\t\t\t\t}],\n\t\t\t\t...\n\t\t\t]\n\t...\n```\n\n### 下拉列表的文字通过样式根据 `DOM` 上的 `data-value` 属性显示\n```SCSS\n.quill-editor{\n\t.ql-font{\n\t\t.ql-picker-label{\n\t\t\t&[data-value]::before {\n\t\t\t\tcontent:attr(data-value);\n\t\t\t}\n\t\t}\n\t\t.ql-picker-options{\n\t\t\tspan[data-value]::before {\n\t\t\t\tcontent:attr(data-value);\n\t\t\t}\n\t\t}\n\t}\n}\n\n.ql-font-宋体 {\n\tfont-family: \"宋体\",serif;\n}\n\n.ql-font-黑体 {\n\tfont-family: \"黑体\",sans-serif;\n}\n\n.ql-font-艺术字 {\n\tfont-family: \"艺术字\",sans-serif;\n}\n```",
+  "click": 0,
+  "star": 1,
+  "status": 1,
+  "created": 1548049326,
+  "modified": 1548124735,
+  "images": []
+}

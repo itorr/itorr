@@ -1,0 +1,93 @@
+{
+  "id": "161",
+  "title": "绫波丽 明日香 薰",
+  "type": "pvc",
+  "text": "产品装箱数：24套/箱\n产品重量：0.2KG  \n产品高度：约8~11CM\n产品规格：8*4*11CM",
+  "cover": "/attach/161/OAQ_6954.jpeg",
+  "color": "c4c8cd",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1515478010,
+  "modified": 1515478067,
+  "images": [
+    {
+      "id": "1359",
+      "aid": "161",
+      "src": "attach/161/OAQ_6954.jpeg",
+      "size": "1076013",
+      "width": "2400",
+      "height": "1600",
+      "color": "c4c9cd",
+      "status": "1",
+      "type": "0",
+      "created": "1515478061",
+      "modified": "1515478061"
+    },
+    {
+      "id": "1352",
+      "aid": "161",
+      "src": "attach/161/OAQ_6957.jpeg",
+      "size": "926968",
+      "width": "2400",
+      "height": "1600",
+      "color": "c3c7cc",
+      "status": "1",
+      "type": "0",
+      "created": "1515477760",
+      "modified": "1515477781"
+    },
+    {
+      "id": "1354",
+      "aid": "161",
+      "src": "attach/161/OAQ_6959.jpeg",
+      "size": "673532",
+      "width": "2400",
+      "height": "1600",
+      "color": "bbbec3",
+      "status": "1",
+      "type": "0",
+      "created": "1515477793",
+      "modified": "1515477793"
+    },
+    {
+      "id": "1355",
+      "aid": "161",
+      "src": "attach/161/OAQ_6960.jpeg",
+      "size": "558341",
+      "width": "2400",
+      "height": "1600",
+      "color": "babdc1",
+      "status": "1",
+      "type": "0",
+      "created": "1515477804",
+      "modified": "1515477804"
+    },
+    {
+      "id": "1358",
+      "aid": "161",
+      "src": "attach/161/OAQ_6968.jpeg",
+      "size": "630623",
+      "width": "1800",
+      "height": "2400",
+      "color": "dccad1",
+      "status": "1",
+      "type": "0",
+      "created": "1515477831",
+      "modified": "1515477831"
+    },
+    {
+      "id": "1357",
+      "aid": "161",
+      "src": "attach/161/OAQ_6966.jpeg",
+      "size": "680652",
+      "width": "1799",
+      "height": "2400",
+      "color": "d4c5cd",
+      "status": "1",
+      "type": "0",
+      "created": "1515477826",
+      "modified": "1515477826"
+    }
+  ]
+}

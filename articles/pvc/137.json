@@ -1,0 +1,67 @@
+{
+  "id": "137",
+  "title": "魔法少女小圆脸",
+  "type": "pvc",
+  "text": "景品",
+  "cover": "/attach/pvc137/IMG_5814.JPG",
+  "color": "d294ae",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1364947200,
+  "modified": 1514393097,
+  "images": [
+    {
+      "id": "1227",
+      "aid": "137",
+      "src": "attach/pvc137/IMG_5814.JPG",
+      "size": "554095",
+      "width": "1600",
+      "height": "2400",
+      "color": "d395b0",
+      "status": "1",
+      "type": "0",
+      "created": "1514393088",
+      "modified": "1514393088"
+    },
+    {
+      "id": "1119",
+      "aid": "137",
+      "src": "attach/pvc137/_IMG_9928.jpg",
+      "size": "163865",
+      "width": "1600",
+      "height": "2400",
+      "color": "bd7c96",
+      "status": "1",
+      "type": "0",
+      "created": "1514315334",
+      "modified": "1514315334"
+    },
+    {
+      "id": "1123",
+      "aid": "137",
+      "src": "attach/pvc137/_IMG_9882.jpg",
+      "size": "260946",
+      "width": "2400",
+      "height": "1600",
+      "color": "d78f94",
+      "status": "1",
+      "type": "0",
+      "created": "1514315449",
+      "modified": "1514315449"
+    },
+    {
+      "id": "1228",
+      "aid": "137",
+      "src": "attach/pvc137/IMG_5816.JPG",
+      "size": "592626",
+      "width": "1484",
+      "height": "2227",
+      "color": "150f17",
+      "status": "1",
+      "type": "0",
+      "created": "1514393089",
+      "modified": "1514393089"
+    }
+  ]
+}

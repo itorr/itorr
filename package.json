@@ -1,0 +1,26 @@
+{
+  "name": "itorr",
+  "version": "1.0.0",
+  "description": "新的博客",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itorr/itorr.git"
+  },
+  "keywords": [
+    "itorr",
+    "blog"
+  ],
+  "author": "itorr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itorr/itorr/issues"
+  },
+  "homepage": "https://github.com/itorr/itorr#readme",
+  "dependencies": {
+    "xml2js": "^0.4.23"
+  }
+}

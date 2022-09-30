@@ -1,0 +1,29 @@
+{
+  "id": "133",
+  "title": "眼镜厂 IMAS 10CM",
+  "type": "pvc",
+  "text": "偶像大师 \n\n如月千早、天海春香、萩原雪步、我那霸响\n\n这一系列的头部是可以和 CO-poche 系列公用的（滑稽",
+  "summary": "如月千早、天海春香、萩原雪步、我那霸响",
+  "cover": "/attach/pvc133/psb.jpeg",
+  "color": "ac7b4c",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1467849600,
+  "modified": 1514319564,
+  "images": [
+    {
+      "id": "954",
+      "aid": "133",
+      "src": "attach/pvc133/psb.jpeg",
+      "size": "1465484",
+      "width": "4240",
+      "height": "2400",
+      "color": "ac7b4d",
+      "status": "1",
+      "type": "0",
+      "created": "1514255594",
+      "modified": "1514255594"
+    }
+  ]
+}

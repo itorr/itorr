@@ -1,0 +1,15 @@
+{
+  "id": "67",
+  "title": "增加虾米音乐嵌入",
+  "type": "code",
+  "text": "@卜卜口:  虾米音乐地址自动转换成虾米音乐播放按钮\n\n在文章中插入虾米音乐地址 http://www.xiami.com/song/{MusicID} 即可在文章中插入音乐播放按钮\n \nhttp://www.xiami.com/song/1771524297\n\nhttp://www.xiami.com/song/1769388593\n\nhttp://www.xiami.com/song/1769839250\n\nhttp://www.xiami.com/song/1770186261",
+  "summary": "@卜卜口:  虾米音乐地址自动转换成虾米音乐播放按钮",
+  "cover": "//ww2.sinaimg.cn/mw1024/4764ae2atw1ejdds8yc3og20xc0m8wec",
+  "color": "fafbfa",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1408048276,
+  "modified": 1408048276,
+  "images": []
+}

@@ -1,0 +1,109 @@
+{
+  "id": "152",
+  "title": "鲁迅追番",
+  "type": "project",
+  "text": "鲁迅追番是一个简单的（自用）追番工具，在鲁迅追番可以追番、看番、评番。\n\n## 客户端\n\n使用 Electron 开发的本地客户端\n\n「发布地址：http://luxun.pro/#/square」\n\n## 鲁迅追番订阅源\n\n针对下载党，提供了这个推送当季新番磁链的订阅源，可供 uTorrent 等支持 RSS 订阅的 BT 客户端作为跟踪源来使用。\n\n「订阅源地址：http://luxun.pro/torrent.xml」\n",
+  "summary": "简单追番工具",
+  "cover": "/static/img/projects/luxun.pro-icon-1024.png",
+  "color": "fcecf2",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1514974198,
+  "modified": 1514975725,
+  "links": [
+    {
+      "text": "访问网站",
+      "url": "http://luxun.pro",
+      "className": "active"
+    },
+    {
+      "text": "安卓版",
+      "url": "http://github.com/itorr/imouto"
+    },
+    {
+      "text": "视窗版",
+      "url": "http://yun.baidu.com/s/1sl45zNB"
+    }
+  ],
+  "images": [
+    {
+      "id": "1284",
+      "aid": "152",
+      "src": "attach/152/1.png",
+      "size": "4176842",
+      "width": "2048",
+      "height": "1536",
+      "color": "28292e",
+      "status": "1",
+      "type": "0",
+      "created": "1514972058",
+      "modified": "1514972058"
+    },
+    {
+      "id": "1286",
+      "aid": "152",
+      "src": "attach/152/3.png",
+      "size": "2529400",
+      "width": "2048",
+      "height": "1536",
+      "color": "384f60",
+      "status": "1",
+      "type": "0",
+      "created": "1514972061",
+      "modified": "1514972061"
+    },
+    {
+      "id": "1287",
+      "aid": "152",
+      "src": "attach/152/4.png",
+      "size": "2089178",
+      "width": "2048",
+      "height": "1536",
+      "color": "859db5",
+      "status": "1",
+      "type": "0",
+      "created": "1514972065",
+      "modified": "1514972065"
+    },
+    {
+      "id": "1288",
+      "aid": "152",
+      "src": "attach/152/5.png",
+      "size": "656963",
+      "width": "2048",
+      "height": "1536",
+      "color": "998447",
+      "status": "1",
+      "type": "0",
+      "created": "1514972069",
+      "modified": "1514972069"
+    },
+    {
+      "id": "1289",
+      "aid": "152",
+      "src": "attach/152/6.png",
+      "size": "2615152",
+      "width": "2048",
+      "height": "1536",
+      "color": "383e3e",
+      "status": "1",
+      "type": "0",
+      "created": "1514972073",
+      "modified": "1514972073"
+    },
+    {
+      "id": "1285",
+      "aid": "152",
+      "src": "attach/152/2.png",
+      "size": "124891",
+      "width": "2048",
+      "height": "1536",
+      "color": "f44c93",
+      "status": "1",
+      "type": "0",
+      "created": "1514972058",
+      "modified": "1514972058"
+    }
+  ]
+}

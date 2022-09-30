@@ -1,0 +1,12 @@
+{
+  "id": "170",
+  "title": "CS:GO 战绩板网页挂件",
+  "type": "nichijou",
+  "text": "最近一年浪费了很多时间在 CSGO 这个游戏、所以再浪费点时间做个网页用的 CSGO 战绩板挂件~\n\n## 样例\n宽度自适应，特殊宽度有特殊处理，画了和官方差别很大的简化版段位图标（很丑，爱用不用?\n<div class=\"csgo-stat-box\"><iframe src=\"//v2.mouto.org/csgo-stat/41791759?level=11\" frameborder=\"0\"></iframe></div>\n\n## 使用方法\n```HTML\n <style>\n.csgo-stat-box{\n\tdisplay:block;\n\tmax-width:500px;\n\theight:220px;\n\tborder-radius:4px;\n}\n</style>\n<iframe class=\"csgo-stat-box\" src=\"//v2.mouto.org/csgo-stat/41791759?level=11\" frameborder=\"0\"></iframe>\n```\n替换链接中的 `41791759` 成需要挂件的 `STEAM v3 ID`，`level` 按照白银到大地球的排序 `0-18` 随需求设定。\n然后将代码插入到需要挂件的页面以 `iframe` 形式引入，即可挂载~\n\n> `STEAM v3 ID` 可以到 https://steamdb.info/calculator/ 之类的网站获取，取 `v3ID` 的连续数字部分\n\n\n\n## 思路\n通过 API 抓取 CSGO 游戏数据\n将数据存储到 `mysql` 中做永固存储，依照最后更新时间更新数据\n将数据通过 `Templet.js` 格式化成 HTML 输出\n\n## 更新\n\n - **18-02-06** SSL 支持\n\n<!--\n`https://api.maxjia.com/api/csgo/player/overview/?game_type=csgo&steam_id={id}`\n`https://api.maxjia.com/api/csgo/player/info/?game_type=csgo&steam_id={id}`\n-->\n<style>.csgo-stat-box{max-width:500px;border-radius:4px;overflow: hidden;}.csgo-stat-box iframe{display:block;width:100%;height:220px;}@media(max-width:500px){.csgo-stat-box{margin:40px -20px 0;border-radius:0;}}</style>",
+  "click": 0,
+  "star": 1,
+  "status": 1,
+  "created": 1517220058,
+  "modified": 1525880777,
+  "images": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "171",
+  "title": "如果在样式上区分自动换行与 <br> ？",
+  "type": "code",
+  "text": "以往文章都只有段落和换行两种行间距，对于某些喜欢用换行作为弱等级段落的人来说 自动换行与 `<br>` 混在一起就很难受?，本文解决的是在样式上区分自动换行与 `<br>`。\n\n一开始尝试了很多不改变 `DOM` 结构的方向，但 `<br>` 标签本身和 `head`、`title` 不同、虽然在 `DOM` 树中，但不存在任何样式，作用仅仅是替代 `\\n`? 所以给 `<br>` 覆盖样式没有任何作用。想要解决这个问题，我的方案还是要动态语言参与改变 `DOM` 结构才行。\n\n## 方案\n\n输出文章前对 HTML 格式化，在所有 `<br>` 后添加占位用 `<span class=\"br\">` 标签；\n自动折行间距通过 **行高 - 字体大小** 进行控制，`<br>` 换行间距通过 **行高 - 字体大小 +  `.br` 元素高度** 控制。\n\n\n## 代码\n\n```JavaScript\ntext=text.replace(/<br\\s?\\/?>/ig,'<br><span class=br></span>');\n```\n\n\n```CSS\n.content{\n\tline-height:1.8;\n\t.br{\n\t\tdisplay:block;\n\t\theight:.4em;\n\t}\n}\n```\n\n## 样例\n\n可以围观这一篇文字比较多的文章\n\n\n{\"type\":\"link\",\"title\":\"「吹响！悠风号」圣巡\",\"image\":\"//6.syouzyo.org/attach/fuukei95/19.jpg!sq512\",\"href\":\"/photo/95\"}",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1517280243,
+  "modified": 1585682977,
+  "images": []
+}

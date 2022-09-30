@@ -1,0 +1,29 @@
+{
+  "id": "134",
+  "title": "明日香 浴衣挂饰",
+  "type": "pvc",
+  "text": "罗森限定",
+  "summary": "罗森限定",
+  "cover": "/attach/pvc134/psb-2.jpeg",
+  "color": "8a0506",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1407456000,
+  "modified": 1530589824,
+  "images": [
+    {
+      "id": "956",
+      "aid": "134",
+      "src": "attach/pvc134/psb-2.jpeg",
+      "size": "788744",
+      "width": "3982",
+      "height": "2254",
+      "color": "8a0506",
+      "status": "1",
+      "type": "0",
+      "created": "1514255867",
+      "modified": "1514255867"
+    }
+  ]
+}

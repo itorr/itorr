@@ -1,0 +1,12 @@
+{
+  "id": "210",
+  "title": "Centos 6 安装 MongoDB",
+  "type": "code",
+  "text": "### 新建 MongoDB 程序目录\n```bash\nmkdir /home/data/mongodb\nmkdir /home/data/mongodb/bin\n```\n\n### 下载\n在 https://www.mongodb.com/download-center 找到红帽版本下载地址，并解压到 `bin` 目录下\n\n```bash\ncd /home/data/mongodb/bin\nwget https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-rhel62-4.0.0.tgz\ntar -zxvf mongodb-linux-*-4.0.0.tgz\n```\n\n### 配置 Mango 启动参数\n```bash\nvi /usr/lib/mongodb/bin/mongo.conf\n```\n\n```bash\nport=27017\ndbpath=/home/data/mongodb\nlogpath=/home/data/mongodb.log\nlogappend=true\nfork=true\n# auth=true\n```\n\n\n\n### 配置系统变量\n编辑文件\n```bash\nvi /etc/profile\n```\n在最末尾添加\n```\nexport PATH=/home/data/mongodb/bin:$PATH\n```\n\n### 配置 Service \n编辑文件\n```bash\nvi /etc/init.d/mongodb\n```\n填入一下信息，变量自己更改\n```bash\n#!/bin/sh\n#\n#mongod - Startup script for mongod\n#\n# chkconfig: - 85 15\n# description: Mongodb database.\n# processname: mongod\n# Source function library\n\t\n. /etc/rc.d/init.d/functions\n# things from mongod.conf get there by mongod reading it\n# OPTIONS\nOPTIONS=\" -f /usr/lib/mongodb/bin/mongo.conf &\"\n#mongod\nmongod=\"/usr/lib/mongodb/bin/mongod\"\nlockfile=/usr/lib/mongodb/mongod.pid\n\nstart () {\n\techo -n $\"Starting mongod: \"\n\tdaemon $mongod $OPTIONS\n\tRETVAL=$?\n\techo\n\t[ $RETVAL -eq 0 ] && touch $lockfile\n}\n\t\nstop () {\n\techo -n $\"Stopping mongod: \"\n\tkillproc $mongod -QUIT\n\tRETVAL=$?\n\techo\n\t[ $RETVAL -eq 0 ] && rm -f $lockfile\n}\n\t\nrestart () {\n\tstop\n\tstart\n}\n\nulimit -n 12000\nRETVAL=0\n\t\ncase \"$1\" in\n\tstart)\n\t\tstart\n\t\t;;\n\tstop)\n\t\tstop\n\t\t;;\n\trestart|reload|force-reload)\n\t\trestart\n\t\t;;\n\tcondrestart)\n\t\t[ -f $lockfile ] && restart || :\n\t\t;;\n\tstatus)\n\t\tstatus $mongod\n\t\tRETVAL=$?\n\t\t;;\n\t*)\n\t\techo \"Usage: $0 {start|stop|status|restart|reload|force-reload|condrestart}\"\n\t\tRETVAL=1\nesac\nexit $RETVAL\n```\n###修改权限\n```bash\nchmod +x /etc/init.d/mongodb\n```\n\n###测试启动\n```bash\nservice mongodb start\n\nmongo --host 127.0.0.1:27017\n```",
+  "click": 0,
+  "star": 1,
+  "status": 1,
+  "created": 1532280177,
+  "modified": 1532280700,
+  "images": []
+}

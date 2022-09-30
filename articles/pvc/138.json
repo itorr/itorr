@@ -1,0 +1,40 @@
+{
+  "id": "138",
+  "title": "绫波丽 赛车娘",
+  "type": "pvc",
+  "cover": "/attach/pvc138/_IMG_9940.jpg",
+  "color": "08396b",
+  "click": 0,
+  "star": 0,
+  "status": 1,
+  "created": 1364947200,
+  "modified": 1514315416,
+  "images": [
+    {
+      "id": "1120",
+      "aid": "138",
+      "src": "attach/pvc138/_IMG_9940.jpg",
+      "size": "202132",
+      "width": "2400",
+      "height": "1600",
+      "color": "08396a",
+      "status": "1",
+      "type": "0",
+      "created": "1514315384",
+      "modified": "1514315394"
+    },
+    {
+      "id": "1122",
+      "aid": "138",
+      "src": "attach/pvc138/_IMG_9930.jpg",
+      "size": "185173",
+      "width": "1600",
+      "height": "2400",
+      "color": "0a1930",
+      "status": "1",
+      "type": "0",
+      "created": "1514315399",
+      "modified": "1514315399"
+    }
+  ]
+}

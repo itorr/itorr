@@ -1,0 +1,12 @@
+{
+  "id": "211",
+  "title": "Sublime Text & Emmet 「Loading PyV8 binary」",
+  "type": "code",
+  "text": "在 `Emmet.sublime-settings` 添加 `disable_pyv8_update` 参数\n\n```JSON\n{\n\t\"disable_pyv8_update\":true\n}\n```\n\n重启 Sublime Text 就不会再会每次都尝试更新了?",
+  "click": 0,
+  "star": 1,
+  "status": 1,
+  "created": 1532347933,
+  "modified": 1532347994,
+  "images": []
+}
