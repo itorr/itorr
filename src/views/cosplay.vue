@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import { get, getBaseData, getArticles } from "@/functions/api";
+import { getArticles } from "@/functions/api";
 
 import { imageFormat } from "@/functions/formats";
 export default {

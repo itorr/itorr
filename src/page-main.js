@@ -23,10 +23,10 @@ Vue.component('ui-tags',UITags)
 
 import { get, getBaseData } from "@/functions/api";
 
-await getBaseData();
-
-new Vue({
-	router,
-	store,
-	render: h => h(App)
-}).$mount(".app");
+getBaseData().then(_=>{
+	new Vue({
+		router,
+		store,
+		render: h => h(App)
+	}).$mount(".app");
+});

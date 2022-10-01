@@ -1,6 +1,7 @@
 
 import { resolve } from 'path'
 import { createVuePlugin } from 'vite-plugin-vue2'
+import copy from 'rollup-plugin-copy'
 
 export default {
     // base : '/',
@@ -49,11 +50,10 @@ export default {
     },
     plugins: [
         createVuePlugin(),
-        // copy([
-        //     { 
-        //         src: './favicon.ico', 
-        //         dest: 'dist/' 
-        //     },
-        // ])
+        copy({
+            targets: [
+              { src: './data/articles.json', dest: 'dist/data/' }, //执行拷贝
+            ]
+        })
     ]
 }
