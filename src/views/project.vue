@@ -13,14 +13,15 @@
                 </a>
             </article>
         </div>
-        <div class="projects-icon-box">
+        <!-- <div class="projects-icon-box">
             <article class="project-item" v-for="project in projects" :key="project.link">
                 <a :href="project.link" target="_blank">
+                    <img :src="project.icon">
                     <h2>{{project.title}}</h2>
                     <p>{{project.description}}</p>
                 </a>
             </article>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -33,33 +34,38 @@ export default {
                     title: '能不能好好说话？',
                     description: '拼音首字母缩写释义工具',
                     link: 'https://lab.magiconch.com/nbnhhsh/',
-                    
+                    icon: './images/projects/nbnhhsh.svg',
                 },
                 {
                     title: '电子包浆',
                     description: '图片绿化工具箱',
-                    link: 'https://magiconch.com/patina/'
+                    link: 'https://magiconch.com/patina/',
+                    icon: './images/projects/patina.jpg',
                 },
                 {
                     // title: '蒸 気 機',
                     title: '蒸 汽 机',
                     description: '虚拟信号蒸汽波风格化影像后期工具',
-                    link: 'https://magiconch.com/vaporwave/'
+                    link: 'https://magiconch.com/vaporwave/',
+                    icon: './images/projects/vaporwave.jpg',
                 },
                 {
                     title: 'One Last Image',
                     description: 'One Last Kiss 卢浮宫生成器',
-                    link: 'https://lab.magiconch.com/one-last-image/'
+                    link: 'https://lab.magiconch.com/one-last-image/',
+                    icon: './images/projects/one-last-image.jpg',
                 },
                 {
                     title: '福音战士标题生成器',
                     description: 'Evangelion Title Card Generator',
-                    link: 'https://lab.magiconch.com/eva-title/'
+                    link: 'https://lab.magiconch.com/eva-title/',
+                    icon: './images/projects/eva-title.jpg',
                 },
                 {
                     title: '画的啥呀',
                     description: '动画主题为主的网页你画我猜',
-                    link: 'https://draw.magiconch.com/'
+                    link: 'https://draw.magiconch.com/',
+                    icon: './images/projects/nbnhhsh.svg',
                 },
                 // {
                 //     title: '更多',
@@ -116,14 +122,28 @@ html[data-route-view="project"]{
     }
 }
 .projects-icon-box{
-    padding:1em 0;
+    padding:1em 0 1em 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
     article{
         a{
             display: block;
-            padding:1em 0;
+            padding:1em;
+            width: 16em;
+        }
+        img{
+            width: 12em;
+            height: 12em;
+            border-radius: 1em;
+            box-shadow: 0 1.1em 1.5em -.5em rgba(111, 3, 3, 0.2);
+            // background:#8b0000;
         }
         h2{
             line-height: 1.4;
+            padding: .4em 0 .2em;
         }
         p{
             padding:.1em 0;

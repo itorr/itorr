@@ -8,6 +8,9 @@ import projectView from '../views/project.vue';
 import anitabiView from '../views/anitabi.vue';
 import syasinnView from '../views/syasinn.vue';
 import cosplayView from '../views/cosplay.vue';
+import pvcView from '../views/pvc.vue';
+import articleView from '../views/article.vue';
+
 import notFoundView from '../views/not-found.vue';
 
 const routes = [
@@ -35,9 +38,25 @@ const routes = [
 		path: "/cosplay",
 		name: "cosplay",
 		component: cosplayView
+	},,
+	{
+		path: "/pvc",
+		name: "pvc",
+		component: pvcView
+	},,
+	{
+		path:'/not-found',
+		name: "not-found",
+		component: notFoundView
+	},
+	{
+		path: "/:url(.+)",
+		name: "article",
+		component: articleView
 	},
 	{
 		path:'*',
+		name: "not-found",
 		component: notFoundView
 	}
 ];

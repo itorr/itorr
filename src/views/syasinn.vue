@@ -52,6 +52,15 @@ html[data-route-view="syasinn"]{
 		}
 	}
 }
+
+html[data-article-type="syasinn"]{
+    .app-nav{
+        a[href="/syasinn"]{
+            color:#b200bb;
+			font-family: JiaLiDaYuanJF-split,'Tensentype-JiaLiDaYuanJ';
+        }
+    }
+}
 .syasinn-view{
     padding-top:0;
     padding-bottom:0;
@@ -86,12 +95,19 @@ html[data-route-view="syasinn"]{
         }
     }
 }
+@media (max-width:1400px) {
+    .syasinn-view{
+        .article-list{
+            .article-item{
+                width:33.33%;
+            }
+        }
+    }
+}
 @media (max-width:800px) {
     .syasinn-view{
-        padding:0;
-
         .article-list{
-        .article-item{
+            .article-item{
                 width:50%;
             }
         }

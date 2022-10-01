@@ -1,5 +1,5 @@
 <template>
-    <div class="cosplay-view">
+    <div class="pvc-view">
         <!-- <img class="image-4" src="../../images/4.jpg"> -->
         <div class="article-list">
             <article class="article-item" 
@@ -33,7 +33,7 @@ export default {
     created(){
         this.articles = getArticles({
             types:[
-                'cosplay',
+                'pvc',
             ]
         }).filter(a=>a.cover)//.filter(a=>a.star)
     }
@@ -41,24 +41,24 @@ export default {
 </script>
 
 <style lang="less">
-html[data-route-view="cosplay"]{
+html[data-route-view="pvc"]{
 	// background: hsl(287, 92%, 95%);
 	.app-nav{
 		a.router-link-exact-active{
-            color:#4500bb;
+            color:#00bb79;
 	        // background: hsl(287, 92%, 95%);
 		}
 	}
 }
-html[data-article-type="cosplay"]{
+html[data-article-type="pvc"]{
     .app-nav{
-        a[href="/cosplay"]{
-            color:#4500bb;
+        a[href="/pvc"]{
+            color:#00bb79;
 			font-family: JiaLiDaYuanJF-split,'Tensentype-JiaLiDaYuanJ';
         }
     }
 }
-.cosplay-view{
+.pvc-view{
     padding-top:0;
     padding-bottom:0;
     .image-4{
@@ -74,7 +74,7 @@ html[data-article-type="cosplay"]{
         align-items: flex-start;
         .article-item{
             background: #333;
-            width:25%;
+            width:33.33%;
             aspect-ratio: 2 / 3;
             overflow: hidden;
             .cover{
@@ -93,7 +93,7 @@ html[data-article-type="cosplay"]{
     }
 }
 @media (max-width:800px) {
-    .cosplay-view{
+    .pvc-view{
         padding:0;
     }
 }

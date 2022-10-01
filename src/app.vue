@@ -5,7 +5,8 @@
 			<router-link to="/project">神奇海螺</router-link>
 			<router-link to="/anitabi">动画巡礼</router-link>
 			<router-link to="/syasinn">写真摄影</router-link>
-			<!-- <router-link to="/cosplay">COSPLAY</router-link> -->
+			<router-link to="/cosplay">COS</router-link>
+			<router-link to="/pvc">玩具</router-link>
 			<router-link to="/links">链接</router-link>
 		</nav>
 		<router-view class="app-view" />

@@ -21,3 +21,27 @@ export const imageFormat = (src,suffix = 'h1200')=>{
 	// }
 	return src;
 };
+
+
+
+import mardownIt from 'markdown-it';
+const md = mardownIt({
+    html:         true,        // Enable HTML tags in source
+    xhtmlOut:     false,        // Use '/' to close single tags (<br />).
+    breaks:       true,        // Convert '\n' in paragraphs into <br>
+    langPrefix:   'language-',  // CSS language prefix for fenced blocks. Can be
+    linkify:      false,        // Autoconvert URL-like text to links
+    typographer:  false,
+    quotes: '“”‘’',
+    // highlight: function (/*str, lang*/) { return ''; }
+});
+export const contentFormat = text=>{
+    if(!text) return '';
+    // text = text.replace(/(https?\:\/\/[\w\/.#&!?%:;=\-_]+\.)(gif|jpg|jpeg|png)/g, '<div class="content-image"><img src="$1$2"></div>')
+    text = text.replace(/(https?\:\/\/ww[0-9]{1}\.sinaimg\.cn\/)([\w]{4,10})(\/[\w]{16,32}\.)(gif|jpg|jpeg|png)/g, "$1mw1024$3$4")
+
+    text = md.render(text)
+	text = text.replace(/<br ?\/?>\s+?<img/g,'<img')
+	text = text.replace(/<br( \/)?>/ig,'<br><span class=br></span>');
+    return text;
+}

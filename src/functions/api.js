@@ -62,11 +62,13 @@ export const post = (url, data, onOver, onError)=> {
 };
 let articles;
 const ArticleIds = {};
+const ArticleURLs = {};
 
 export const getBaseData = async _=>{
-    articles = await get('./data/articles.json');
+    articles = await get('/data/articles.json');
     articles.forEach(article=>{
         ArticleIds[article.id] = article;
+        ArticleURLs[article.url] = article;
     });
 };
 export const getArticles = (query)=>{
@@ -100,4 +102,7 @@ export const getArticles = (query)=>{
 };
 export const getArticle = (id)=>{
     return ArticleIds[id]
+};
+export const getArticleByURL = (url)=>{
+    return ArticleURLs[url]
 };
