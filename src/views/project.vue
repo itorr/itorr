@@ -32,7 +32,8 @@ export default {
                 {
                     title: '能不能好好说话？',
                     description: '拼音首字母缩写释义工具',
-                    link: 'https://lab.magiconch.com/nbnhhsh/'
+                    link: 'https://lab.magiconch.com/nbnhhsh/',
+                    
                 },
                 {
                     title: '电子包浆',

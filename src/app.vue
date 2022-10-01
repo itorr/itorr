@@ -25,7 +25,7 @@
 	line-height: 3;
 	overflow: auto;
 	white-space: nowrap;
-	padding: 0 2em 0 .5em;
+	padding: 0 .5em 0 .5em;
 	a{
 		display: inline-block;
 		vertical-align: top;
@@ -37,6 +37,9 @@
 		}
 		&.router-link-active{
 
+		}
+		&:last-child{
+			padding-right: 3em;
 		}
 	}
 }
