@@ -57,6 +57,7 @@ export default {
 
 <style lang="less">
 .article-view{
+    font-family: sans-serif;
     line-height: 2;
     img{
         display: block;
