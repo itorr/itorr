@@ -5,6 +5,7 @@
 			<router-link to="/project">神奇海螺</router-link>
 			<router-link to="/anitabi">动画巡礼</router-link>
 			<router-link to="/syasinn">写真摄影</router-link>
+			<!-- <router-link to="/cosplay">COSPLAY</router-link> -->
 			<router-link to="/links">链接</router-link>
 		</nav>
 		<router-view class="app-view" />
@@ -20,10 +21,11 @@
 <style lang="less">
 .app-nav{
 	display: flex;
+	font-size: 1.2em;
 	line-height: 3;
 	overflow: auto;
 	white-space: nowrap;
-	padding: 0 .5em;
+	padding: 0 2em 0 .5em;
 	a{
 		display: inline-block;
 		vertical-align: top;
@@ -31,7 +33,7 @@
 		color: #222;
 		&.router-link-exact-active{
 			// font-weight: bold;
-			font-family: 'Tensentype-JiaLiDaYuanJ';
+			font-family: JiaLiDaYuanJF-split,'Tensentype-JiaLiDaYuanJ';
 		}
 		&.router-link-active{
 
@@ -40,6 +42,7 @@
 }
 .app-view{
     padding: 1em;
+	min-height: calc( 100vh - 8em );
 }
 .app-cp{
 	padding:1em;

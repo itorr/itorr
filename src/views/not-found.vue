@@ -17,9 +17,10 @@ export default {
 
 <style lang="less">
 .not-found-view{
-    line-height: 1.4;
+    line-height: 1.2;
     h1{
         font-size: 4em;
+        padding:.4em 0;
     }
     p{
         font-size: 2em;

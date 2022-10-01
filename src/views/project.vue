@@ -13,6 +13,14 @@
                 </a>
             </article>
         </div>
+        <div class="projects-icon-box">
+            <article class="project-item" v-for="project in projects" :key="project.link">
+                <a :href="project.link" target="_blank">
+                    <h2>{{project.title}}</h2>
+                    <p>{{project.description}}</p>
+                </a>
+            </article>
+        </div>
     </div>
 </template>
 
@@ -91,6 +99,22 @@ html[data-route-view="project"]{
     }
 }
 .projects-box{
+    padding:1em 0;
+    article{
+        a{
+            display: block;
+            padding:1em 0;
+        }
+        h2{
+            line-height: 1.4;
+        }
+        p{
+            padding:.1em 0;
+            opacity: 0.4;
+        }
+    }
+}
+.projects-icon-box{
     padding:1em 0;
     article{
         a{

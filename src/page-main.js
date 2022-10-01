@@ -21,6 +21,10 @@ Vue.component('ui-switch',UISwitch)
 import UITags from './components/ui-tags.vue'
 Vue.component('ui-tags',UITags)
 
+import { get, getBaseData } from "@/functions/api";
+
+await getBaseData();
+
 new Vue({
 	router,
 	store,

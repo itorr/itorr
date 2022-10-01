@@ -2,6 +2,7 @@
     <div class="profile-view">
         <img class="avatar" src="https://tvax4.sinaimg.cn/crop.0.0.896.896.560/4764ae2aly8g4skaomyl8j20ow0owgon.jpg">
         <h1>卜卜口</h1>
+        <p>(*´▽｀)ノノ✨✨</p>
         <p>
             你好，我是卜卜口~
         </p>
@@ -30,6 +31,10 @@
             被推荐过哔哩哔哩首页最大的轮播位四天<br>
             凑齐九张图会发一条
             <a href="https://weibo.com/1197780522/Ipgkka7S3" target="_blank">微博</a>
+            <br>
+            <!-- 参与了网络电台
+            <a href="https://music.163.com/djradio/796586656">大吉山放送部</a>
+            欢迎来听 -->
         </p>
         <p>
             喜欢做 <b>有趣的项目</b>
@@ -38,7 +43,7 @@
             <br>
             <a href="https://lab.magiconch.com/nbnhhsh/" target="_blank">能不能好好说话</a>、
             <a href="https://magiconch.com/patina/" target="_blank">电子包浆</a>、
-            <a href="https://magiconch.com/vaporwave/" target="_blank">蒸 気 機</a>、
+            <a href="https://magiconch.com/vaporwave/" target="_blank">蒸 汽 机</a>、
             <!-- <br>
             <a href="https://lab.magiconch.com/homo/" target="_blank">恶臭数字论证器</a>、
             <a href="https://lab.magiconch.com/sakana/" target="_blank">石蒜模拟器</a>、 -->
@@ -63,7 +68,7 @@
             二零年之后的项目 会整理到
             <router-link to="/project">神奇海螺试验场</router-link>
             <br>
-            部分会开源在 
+            部分项目开源在 
             <a href="https://github.com/itorr" target="_blank">GitHub</a>
         </p>
     </div>

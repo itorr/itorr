@@ -1,5 +1,16 @@
+@font-face {
+    font-family: JiaLiXianYuanJF-split;
+    src: url(../fonts/JiaLiXianYuanJF-split.woff);
+}
+
+@font-face {
+    font-family: JiaLiDaYuanJF-split;
+    src: url(../fonts/JiaLiDaYuanJF-split.woff);
+}
+
+
 html{
-    font-family: 'Tensentype-JiaLiXianYuanJF',BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",sans-serif;
+    font-family: JiaLiXianYuanJF-split,'Tensentype-JiaLiXianYuanJF',BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",sans-serif;
     font-size:24px;
     color:#333;
 }
@@ -11,7 +22,7 @@ h1,h2,h3,h4{
 }
 h1,h2,h3,h4,b{
     font-weight: normal;
-    font-family: 'Tensentype-JiaLiDaYuanJ';
+    font-family: JiaLiDaYuanJF-split,'Tensentype-JiaLiDaYuanJF';
 }
 p{
     margin: 0;
@@ -23,4 +34,10 @@ a{
 
 .nowarp{
     white-space: nowrap;
+}
+
+@media (max-width:800px) {
+    html{
+        font-size: 18px;
+    }
 }

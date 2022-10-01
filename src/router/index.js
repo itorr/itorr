@@ -7,6 +7,7 @@ import profileView from '../views/profile.vue';
 import projectView from '../views/project.vue';
 import anitabiView from '../views/anitabi.vue';
 import syasinnView from '../views/syasinn.vue';
+import cosplayView from '../views/cosplay.vue';
 import notFoundView from '../views/not-found.vue';
 
 const routes = [
@@ -29,6 +30,11 @@ const routes = [
 		path: "/syasinn",
 		name: "syasinn",
 		component: syasinnView
+	},
+	{
+		path: "/cosplay",
+		name: "cosplay",
+		component: cosplayView
 	},
 	{
 		path:'*',

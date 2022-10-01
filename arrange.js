@@ -80,11 +80,19 @@ const parseArticleByMarkDown = filePath=>{
     const type = basename(path);
 
     let id = fileName.replace(articleFileNameRegex,'');
-   
+
+    let cover;
+
+    const imagesMatch = text.match(/https.+?\.(jpe?g|png)/g)
+    
+    if(imagesMatch){
+        cover = imagesMatch[0]
+    }
     return {
         id,
         type,
         title,
+        cover,
         created,
         text,
         ext: 'md'
@@ -112,6 +120,7 @@ types.forEach(type=>{
         article.type = type;
 
         article.url = generatorURL(article);
+        article.file = `${type}/${fileName}`;
 
         articles.push(article);
     });

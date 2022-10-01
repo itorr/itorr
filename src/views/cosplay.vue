@@ -1,5 +1,5 @@
 <template>
-    <div class="syasinn-view">
+    <div class="cosplay-view">
         <!-- <img class="image-4" src="../../images/4.jpg"> -->
         <div class="article-list">
             <article class="article-item" 
@@ -33,9 +33,7 @@ export default {
     created(){
         this.articles = getArticles({
             types:[
-                'syasinn',
-                // 'cosplay',
-                // 'pvc',
+                'cosplay',
             ]
         }).filter(a=>a.cover)//.filter(a=>a.star)
     }
@@ -43,16 +41,16 @@ export default {
 </script>
 
 <style lang="less">
-html[data-route-view="syasinn"]{
+html[data-route-view="cosplay"]{
 	// background: hsl(287, 92%, 95%);
 	.app-nav{
 		a.router-link-exact-active{
-            color:#b200bb;
+            color:#4500bb;
 	        // background: hsl(287, 92%, 95%);
 		}
 	}
 }
-.syasinn-view{
+.cosplay-view{
     padding-top:0;
     padding-bottom:0;
     .image-4{
@@ -67,8 +65,8 @@ html[data-route-view="syasinn"]{
         justify-content: flex-start;
         align-items: flex-start;
         .article-item{
-            width:25%;
             background: #333;
+            width:25%;
             aspect-ratio: 2 / 3;
             overflow: hidden;
             .cover{
@@ -87,14 +85,8 @@ html[data-route-view="syasinn"]{
     }
 }
 @media (max-width:800px) {
-    .syasinn-view{
+    .cosplay-view{
         padding:0;
-
-        .article-list{
-        .article-item{
-                width:50%;
-            }
-        }
     }
 }
 </style>

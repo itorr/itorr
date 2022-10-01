@@ -3,6 +3,7 @@
         <!-- <h1>动画巡礼</h1> -->
         <article>
             <img src="../../images/1.jpg">
+            <img src="../../images/1.jpg">
         </article>
     </div>
 </template>
@@ -35,6 +36,11 @@ html[data-route-view="anitabi"]{
             display: block;
             width:100%;
         }
+    }
+}
+@media (max-width:800px) {
+    .anitabi-view{
+        padding:0;
     }
 }
 </style>
