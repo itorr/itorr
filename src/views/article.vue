@@ -64,6 +64,11 @@ export default {
         font-family: BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",sans-serif;
     }
     line-height: 2;
+    h1{
+        line-height: 1.2;
+        padding:.2em 0;
+        
+    }
     img{
         display: block;
         max-width: 100%;
