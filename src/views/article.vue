@@ -57,7 +57,12 @@ export default {
 
 <style lang="less">
 .article-view{
-    font-family: sans-serif;
+    font-family: BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",sans-serif;
+    h1,h2,h3,h4,
+    b{
+        font-weight: bold;
+        font-family: BlinkMacSystemFont,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",sans-serif;
+    }
     line-height: 2;
     img{
         display: block;

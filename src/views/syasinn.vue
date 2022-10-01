@@ -106,6 +106,7 @@ html[data-article-type="syasinn"]{
 }
 @media (max-width:800px) {
     .syasinn-view{
+        padding: 0;
         .article-list{
             .article-item{
                 width:50%;
