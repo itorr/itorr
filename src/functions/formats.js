@@ -43,5 +43,6 @@ export const contentFormat = text=>{
     text = md.render(text)
 	text = text.replace(/<br ?\/?>\s+?<img/g,'<img')
 	text = text.replace(/<br( \/)?>/ig,'<br><span class=br></span>');
+	text = text.replace(/<img /g,t=>`${t}referrerpolicy="no-referrer" `)
     return text;
 }
