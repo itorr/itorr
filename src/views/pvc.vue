@@ -94,7 +94,12 @@ html[data-article-type="pvc"]{
 }
 @media (max-width:800px) {
     .pvc-view{
-        padding:0;
+        padding: 0;
+        .article-list{
+            .article-item{
+                width:50%;
+            }
+        }
     }
 }
 </style>
