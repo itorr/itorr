@@ -46,7 +46,7 @@
 }
 .app-view{
     padding: 1em;
-	min-height: calc( 100vh - 8em );
+	min-height: calc( 100vh - 8.6em );
 }
 .app-cp{
 	padding:1em;
