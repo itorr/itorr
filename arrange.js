@@ -58,7 +58,7 @@ const generatorURL = article=>{
         title,
     ].join(','));
 
-    return `${type}/${dateFormat(new Date(created),'yyyy-MM-dd')}_${hash.substr(0,8)}`;
+    return `${type}/${dateFormat(created,'yyyy-MM-dd')}_${hash.substr(0,8)}`;
 
 };
 const parseArticleByMarkDown = filePath=>{
@@ -68,7 +68,7 @@ const parseArticleByMarkDown = filePath=>{
     const fileNameMatch = fileName.match(mdFileNameRegex);
     if(!fileNameMatch) return console.log(filePath,'文章解析出错');
     
-    const created = Math.floor(+new Date(fileNameMatch[1]+' 00:00:01')/1000);
+    const created = Math.floor(+new Date(fileNameMatch[1]+' 00:00:01 GMT+0800')/1000);
     
     const titleMatch = text.match(titleRegex);
 
