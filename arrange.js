@@ -83,7 +83,7 @@ const parseArticleByMarkDown = filePath=>{
 
     let cover;
 
-    const imagesMatch = text.match(/https.+?\.(jpe?g|png)/g)
+    const imagesMatch = text.match(/https.+?\.(jpe?g|png)/ig)
     
     if(imagesMatch){
         cover = imagesMatch[0]
