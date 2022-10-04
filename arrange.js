@@ -61,6 +61,7 @@ const generatorURL = article=>{
     return `${type}/${dateFormat(created,'yyyy-MM-dd')}_${hash.substr(0,8)}`;
 
 };
+const afterImageRegex = /!\[(.+?)\]\((.+?)\)\s{0,}$/m;
 const parseArticleByMarkDown = filePath=>{
     let text = readFileSync(filePath,'utf-8');
     const fileName = basename(filePath);
@@ -83,11 +84,27 @@ const parseArticleByMarkDown = filePath=>{
 
     let cover;
 
-    const imagesMatch = text.match(/https.+?\.(jpe?g|png)/ig)
+    const coverMatch = text.match(/https.+?\.(jpe?g|png)/ig);
     
-    if(imagesMatch){
-        cover = imagesMatch[0]
+    if(coverMatch){
+        cover = coverMatch[0]
     }
+
+    let images = [];
+
+    while(true){
+        const afterImageMatch = text.match(afterImageRegex);
+        if(!afterImageMatch) break;
+
+        const title = afterImageMatch[1];
+        const src = afterImageMatch[2];
+        // console.log(title,src);
+        images.push({
+            src
+        });
+        text = text.replace(afterImageRegex,'');
+    }
+
     return {
         id,
         type,
@@ -95,6 +112,7 @@ const parseArticleByMarkDown = filePath=>{
         cover,
         created,
         text,
+        images,
         ext: 'md'
     }
 };

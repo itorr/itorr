@@ -34,10 +34,13 @@ export default {
         this.articles = getArticles({
             types:[
                 'syasinn',
-                // 'cosplay',
+                'cosplay',
                 // 'pvc',
             ]
-        }).filter(a=>a.cover)//.filter(a=>a.star)
+        }).filter(a=>a.cover).filter(a=>{
+            if(a.type === 'syasinn') return true;
+            if(a.type === 'cosplay' && a.star) return true;
+        })//.filter(a=>a.star)
     }
 }
 </script>

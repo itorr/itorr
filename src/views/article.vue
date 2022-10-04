@@ -1,12 +1,12 @@
 <template>
     <div class="article-view" v-if="article">
-        <h1>{{article.title}}</h1>
-        <div class="content-box" v-html="contentFormat(article.text)"></div>
         <div class="images-box">
             <div class="image-item" v-for="image in article.images" :key="image.src">
                 <img :src="imageFormat(image.src)">
             </div>
         </div>
+        <h1>{{article.title}}</h1>
+        <div class="content-box" v-html="contentFormat(article.text)"></div>
         <!-- <pre>{{article}}</pre> -->
     </div>
 </template>
@@ -66,15 +66,11 @@ export default {
     line-height: 2;
     h1{
         line-height: 1.2;
-        padding:.2em 0;
+        padding:1em 0 .4em;
         
     }
-    img{
-        display: block;
-        max-width: 100%;
-        max-height:100vh;
-        margin:1em auto;
-    }
+    padding-top:0;
+    padding-bottom:0;
 }
 
 
@@ -82,9 +78,31 @@ export default {
 .content-box{
     // padding:1em 0 2em;
     img{
+        display: block;
+        max-width: 100%;
+        max-height:100vh;
+        margin:1em auto;
     }
 }
 .image-item{
 
+}
+
+.images-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: -.5em 0;
+    .image-item{
+        padding:.5em 0;
+        img{
+            display: block;
+            max-width: 100%;
+            max-height:100vh;
+        }
+    }
 }
 </style>
