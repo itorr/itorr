@@ -27,7 +27,10 @@
 
 [Sakana! 石蒜模拟器](https://lab.magiconch.com/sakana/)、
 
-[One Last Image 卢浮宫生成器](https://lab.magiconch.com/one-last-image/)、
+[中国制霸生成器](https://lab.magiconch.com/china-ex/)、
+[全球制霸生成器](https://lab.magiconch.com/world-ex/)、
+
+[One Last Image](https://lab.magiconch.com/one-last-image/)、
 [福音战士标题生成器](https://lab.magiconch.com/eva-title/)、
 
 [EVA 扫雷](https://v.magiconch.com/mine-sweeper)、
