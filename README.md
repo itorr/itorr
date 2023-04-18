@@ -24,6 +24,9 @@
 [电子包浆](https://magiconch.com/patina/)、
 [蒸 気 機](https://magiconch.com/vaporwave/)、
 [恶臭数字论证器](https://lab.magiconch.com/homo/)、
+[绘谜你画我猜](https://enazo.cn)、
+[动画巡礼地图](https://anitabi.cn)、
+[京都动画笨蛋翻译整理](https://kyoani.cn)、
 
 [Sakana! 石蒜模拟器](https://lab.magiconch.com/sakana/)、
 
@@ -39,8 +42,7 @@
 
 [梗图生成器](https://x.magiconch.com)、
 [字符字生成器](https://magiconch.com/fontfont/)、
-[粘土人列表](https://magiconch.com/nendoroids/)、
-[你画我猜](https://v.magiconch.com/drawhat)、
+[粘土人列表](https://magiconch.com/nendoroids/)
 
 [不会百度么？](https://buhuibaidu.me/)
 
