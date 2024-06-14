@@ -11,7 +11,7 @@
 喜欢玩反恐精英、
 喜欢捏粘土人头发。
 
-有一个 [博客](https://mouto.org/) 、
+有一个 [博客](https://mouto-org.magiconch.com/) 、
 社交媒体主要用 [微博](https://weibo.com/reiove)
 
 喜欢「福音战士」 头像是自己模仿贞本义行原画拍的 [照片](https://weibo.com/1197780522/HnmkwpIPC) 
